@@ -13,18 +13,20 @@
   </head>
   <body>
     <!-- HEADER SECTION START -->
-    <header class="row">
-      <div class="col-9 col-sm-12">
-        <h1>Blanca Mármol</h1>
+    <header class="row no-gutters">
+      <!-- BRAND -->
+      <div class="col-8 col-sm-12">
+        <a href="index.html"><h1>Blanca Mármol</h1></a>
       </div>
-      <div class="col-3 col-sm-12">
-        <nav class="navbar navbar-expand-sm navbar-light">
+      <!-- SITE NAVIGATION -->
+      <div class="col-4 col-sm-12 ml-auto">
+        <nav class="navbar navbar-expand-sm">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class=""></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
               <a class="nav-item nav-link" href="#">Works</a>
               <a class="nav-item nav-link" href="#">Reviews</a>
               <a class="nav-item nav-link" href="#">Blog</a>
@@ -36,39 +38,46 @@
     </header>
     
     <!-- MAIN CONTENT SECTION START -->
-    <section class="container-fluid">
+    <section class="container-fluid no-gutters">
+      <!-- MAIN CONTENT (BOOK HERO) -->
       <div class="row">
-        <div class="col-3">
+        <div class="col-3 d-none d-md-block">
           quote
         </div>
-        <div class="col-6">
-          <img src="" alt="book cover" widht="33%" height="400">
+        <div class="col-12 col-sm-6">
+          <img src="" alt="book cover" widht="" height="">
         </div>
-        <div class="col-3">
+        <div class="col-3 d-none d-sm-block">
           quote
         </div>
       </div>
-      <hr>  
-      <div class="container">
+      <hr>
+      <!-- PEAK SUB-CONTENT -->
+      <div class="container no-gutters">
         <div class="row">
-          <h2>Upcoming_interactions_Section</h2>
+          <div class="col">
+            <h2>Upcoming</h2>
+          </div>
         </div>  
         <div class="row">
-          content
+          <div class="col">
+            <p>Upcoming_interactions_Section</p>
+          </div>
         </div>
       </div>
     </section>
     
     <!-- FOOTER FIXED SECTION START -->
-    <footer class="row fixed-bottom">
-      <div class="col-6">
-        copyright
+    <footer>
+      <div class="row no-gutters fixed-bottom" id="footer-bg">
+        <div class="col-6">
+          copyright
+        </div>
+        <div class="col-6">
+          iconos rrss
+        </div>
       </div>
-      <div class="col-6">
-        iconos rrss
-      </div>
-    </footer>
-          
+    </footer>      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

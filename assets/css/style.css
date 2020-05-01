@@ -1,0 +1,63 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');  /* font-family: 'Reenie Beanie', cursive; */
+
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap'); /*font-family: 'Over the Rainbow', cursive; */
+
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap'); /* font-family: 'Euphoria Script', cursive;
+ */
+
+/* STRUCTURE */
+
+body {
+  background-image: url(../images/banner3.png);
+  color: floralwhite;
+  height: 100vh;
+}
+
+header {
+  min-height: 25vh;
+}
+
+section {
+  height: 75vh;
+  background-color: blanchedalmond;
+  color: crimson;
+  margin-bottom: 25px;
+}
+footer {
+
+}
+
+/* HEADER */
+
+
+/* MAIN SECTION GENERAL */
+
+
+/* MAIN SECTION HOME */
+
+
+/* MAIN SECTION WORKS */
+
+
+/* MAIN SECTION REVIEWS */
+
+
+/* MAIN SECTION BLOG */
+
+
+/* MAIN SECTION CONTACT */
+
+
+/* FOOTER */
+
+#footer-bg {
+  background-image: url(../images/banner3.png);
+}
+
+/* MEDIA QUERYS SPECS */
+
+@media screen and (max-width: 575px) {
+  header {min-height: "";}
+}
