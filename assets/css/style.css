@@ -20,7 +20,7 @@ header {
 }
 
 section {
-  height: 75vh;
+  min-height: 65vh;
   background-color: blanchedalmond;
   color: crimson;
   margin-bottom: 25px;
@@ -31,6 +31,46 @@ footer {
 
 /* HEADER */
 
+header a{
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Euphoria Script', cursive;
+  letter-spacing: 4px;
+  word-spacing: 15px;
+  color: floralwhite;
+}
+
+.author--brand {
+  min-height: 120px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.author--brand h1 {
+  font-size: 400%;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0 15px 0 15px;;
+}
+
+.site--navigation { /* nav->span->i, nav->div->a */
+  padding: 0;
+  margin: 0;
+}
+
+.site--navigation i {
+  color: floralwhite;
+  position: absolute;
+  top: 27px;
+  right: 20px;
+}
+
+.site--navigation a {
+  text-align: left;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 /* MAIN SECTION GENERAL */
 
@@ -60,4 +100,22 @@ footer {
 
 @media screen and (max-width: 575px) {
   header {min-height: "";}
+}
+
+@media screen and (min-width: 595px) {
+  .site--navigation a {
+    font-size: 30px;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .site--navigation a:last-child {
+    margin-right: 0;
+  }
+}
+
+
+/* LINKS HOVER EFFECTS */
+
+.author--brand a:hover {
+  
 }
