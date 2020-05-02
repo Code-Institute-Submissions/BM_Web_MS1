@@ -1,35 +1,30 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');  /* font-family: 'Reenie Beanie', cursive; */
-
-@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap'); /*font-family: 'Over the Rainbow', cursive; */
-
-@import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap'); /* font-family: 'Euphoria Script', cursive;
- */
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap'); /* font-family: 'Euphoria Script', cursive; */
 @import url('https://fonts.googleapis.com/css?family=Cardo&display=swap'); /* font-family: 'Cardo', serif; */
 
 /* STRUCTURE */
 
 body {
-  background-image: url(../images/banner3.png);
   color: floralwhite;
   height: 100vh;
   font-family: 'Cardo', serif;
 }
 
 header {
+  background-image: url(../images/banner3.png);
   min-height: 25vh;
-  border-bottom: 2px solid floralwhite;
+  border-bottom: 2px solid #fffff0;
 }
 
 section {
-  min-height: 65vh;
-  background-color: blanchedalmond;
-  color: crimson;
-  margin-bottom: 25px;
+  min-height: calc(75vh - 31px);
+  background-color: gray;
+  color: black;
 }
 footer {
-
+  min-height: 31px;
+  border-top: 2px solid #fffff0;
 }
 
 /* HEADER */
@@ -40,7 +35,7 @@ header a{
   font-family: 'Euphoria Script', cursive;
   letter-spacing: 4px;
   word-spacing: 15px;
-  color: floralwhite;
+  color: #fffff0;
 }
 
 .author--brand {
@@ -62,10 +57,11 @@ header a{
 }
 
 .site--navigation button {
-  color: floralwhite;
+  color: #fffff0;
+  font-size: 25px;
   position: absolute;
-  top: 27px;
-  right: 10px;
+  top: 5px;
+  right: 5px;
 }
 
 .site--navigation a {
@@ -103,11 +99,12 @@ header a{
 
 @media screen and (max-width: 575px) {
   #contracted-menu-spec {
-    margin-left: 0; 
+    margin-top: 20px;
+    margin-left: 0;
     padding-left: 0;
   }
   .site--navigation a {
-    border-left: 1px solid floralwhite;
+    border-left: 1px solid #fffff0;
   }
   #border-separation a {
     padding-left: 5px;
@@ -120,14 +117,35 @@ header a{
     padding: 0;
     margin-right: 20px;
   }
-  .site--navigation a:last-child 
+  .site--navigation a:last-child {
     margin-right: 0;
   }
 }
 
 
-/* LINKS HOVER EFFECTS */
+/* LINKS HOVER AND BUTTON EFFECTS */
 
-.author--brand a:hover {
-  
+header a:hover {
+  color: #fffff0;
+  text-decoration: none;
 }
+
+.site--navigation a:hover,
+.site--navigation a:active {
+  color: #ff8f00 ;
+  letter-spacing: 5px;
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+  border-left: none;
+}
+
+input[type=checkbox] {display: none;}
+input[type=checkbox]:checked ~ label {
+  color: #ff8f00;
+}
+/*
+.site--navigation button:hover,
+.site--navigation button:active,
+.site--navigation button:focus {
+  color: #ff8f00;
+} */

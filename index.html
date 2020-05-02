@@ -23,9 +23,14 @@
       <!-- SITE NAVIGATION -->
       <div class="col-4 col-sm-12 ml-auto site--navigation">
         <nav class="navbar navbar-expand-sm" id="contracted-menu-spec">
+          <!-- BUTTON COLLAPSE -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <input type="checkbox" id="toggle-color">
+            <label for="toggle-color">
               <span><i class="fas fa-ellipsis-v"></i></span>
+            </label>
           </button>
+          <!-- REGULAR NAVBAR -->
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
             <div class="navbar-nav" id="border-separation">
               <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -70,8 +75,8 @@
     </section>
     
     <!-- FOOTER FIXED SECTION START -->
-    <footer>
-      <div class="row no-gutters fixed-bottom" id="footer-bg">
+    <footer class="fixed-bottom">
+      <div class="row no-gutters" id="footer-bg">
         <div class="col-6">
           copyright
         </div>
