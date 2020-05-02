@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap'); /* font-family: 'Euphoria Script', cursive;
  */
+@import url('https://fonts.googleapis.com/css?family=Cardo&display=swap'); /* font-family: 'Cardo', serif; */
 
 /* STRUCTURE */
 
@@ -13,10 +14,12 @@ body {
   background-image: url(../images/banner3.png);
   color: floralwhite;
   height: 100vh;
+  font-family: 'Cardo', serif;
 }
 
 header {
   min-height: 25vh;
+  border-bottom: 2px solid floralwhite;
 }
 
 section {
@@ -58,11 +61,11 @@ header a{
   margin: 0;
 }
 
-.site--navigation i {
+.site--navigation button {
   color: floralwhite;
   position: absolute;
   top: 27px;
-  right: 20px;
+  right: 10px;
 }
 
 .site--navigation a {
@@ -99,8 +102,17 @@ header a{
 /* MEDIA QUERYS SPECS */
 
 @media screen and (max-width: 575px) {
-  header {min-height: "";}
-}
+  #contracted-menu-spec {
+    margin-left: 0; 
+    padding-left: 0;
+  }
+  .site--navigation a {
+    border-left: 1px solid floralwhite;
+  }
+  #border-separation a {
+    padding-left: 5px;
+  }
+} 
 
 @media screen and (min-width: 595px) {
   .site--navigation a {
@@ -108,7 +120,7 @@ header a{
     padding: 0;
     margin-right: 20px;
   }
-  .site--navigation a:last-child {
+  .site--navigation a:last-child 
     margin-right: 0;
   }
 }
