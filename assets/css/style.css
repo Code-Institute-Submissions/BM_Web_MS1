@@ -41,13 +41,13 @@ header a{
   color: #fffff0;
 }
 
-.author--brand {
+.author-brand {
   min-height: 120px;
   padding-top: 25px;
   padding-bottom: 10px;
 }
 
-.author--brand h1 {
+.author-brand h1 {
   font-size: 400%;
   font-weight: 900;
   letter-spacing: 2px;
@@ -89,6 +89,16 @@ header a{
 /* MAIN SECTION GENERAL */
 
 #section-title {
+  font-family: 'Euphoria Script', cursive;
+  font-weight: 800;
+  font-size: 350%;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fffff0;
+}
+
+#sub-section-title {
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
   text-transform: capitalize;
@@ -118,12 +128,6 @@ header a{
   border-radius: 25px;
   margin: 0 15px 0 15px;
   padding: 4px;
-}
-
-.hero-image-container h3 {
-  font-weight: 800;
-  font-size: 200%;
-  padding-bottom: 10px;
 }
 
 .hero-image-container div {
@@ -166,6 +170,75 @@ header a{
 
 /* MAIN SECTION TITLES */
 
+section h2 {
+  padding-top: 20px;
+}
+
+#titles-carousel {
+  min-height: 400px;
+  height: auto;
+  width: 100%;
+  padding: 30px 0 31px 0;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#titles-carousel-content {
+  text-align: center;
+}
+
+.sinopsis-image img {
+  border: 2px solid #10343F;
+  height: 300px;
+}
+.sinopsis-text-small {
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.sinopsis-text-small p {
+  padding: 10px;
+  border: 2px solid #10343F;
+  border-radius: 25px;
+  background-color: rgba(255,255,240,0.7);  
+}
+
+.sinopsis-text-med {
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.sinopsis-text-med p {
+  margin-left: 5px;
+  padding: 10px;
+  border: 2px solid #10343F;
+  border-radius: 25px;
+  background-color: rgba(255,255,240,0.7);  
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 200px;
+  width: 50px;
+  align-items: start;
+  background-color: transparent;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #10343F;
+  border: 1px solid #fffff0;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  left: 0;
+}
 
 /* MAIN SECTION REVIEWS */
 
@@ -239,10 +312,6 @@ header a{
     padding-left: 5px;
   }
   
-  .hero-image-container h3 {
-  font-size: 200%;
-  }
-  
   /* main-section */
 
   /* footer */
@@ -276,30 +345,45 @@ header a{
     padding: 0;
     margin-right: 20px;
   }
+    
+  /* main-section */
+
   .hero-image-container div {
     background-position: top;
     max-width: 530px;
   }
     
   #hero-blockquote {
-  padding: 120px 0 0 0;
+    padding: 120px 0 0 0;
   }
-    
+
+  .sinopsis-image img {
+    height: 350px;
+  }
+  /* footer */
+
+}
+
+@media screen and (min-width: 992px) {
+  /* header */
+  
   /* main-section */
+  .sinopsis-image img {
+    height: 400px;
+  }
 
   /* footer */
 
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1200px) {
   /* header */
-
-  .hero-image-container h3 {
-    font-size: 280%;
-  }
   
   /* main-section */
-
+  .sinopsis-text-med {
+  font-size: 18px;
+  }
+  
   /* footer */
 
 }
