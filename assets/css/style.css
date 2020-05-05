@@ -54,7 +54,7 @@ header a{
   margin: 0 15px 0 15px;;
 }
 
-.site--navigation {
+.site-navigation {
   padding: 0;
   margin: 0;
 }
@@ -71,7 +71,7 @@ header a{
   display: none;
 }
 
-.site--navigation button {
+.site-navigation button {
   color: #fffff0;
   font-size: 25px;
   position: absolute;
@@ -79,7 +79,7 @@ header a{
   right: 5px;
 }
 
-.site--navigation a {
+.site-navigation a {
   text-align: left;
   padding-right: 20px;
   font-size: 20px;
@@ -109,7 +109,7 @@ header a{
   font-size: 24px;
   font-weight: 600;
   text-align: center;
-  padding: 130px 0 0 0;
+  padding: 160px 0 0 0;
   margin: 0;
 }
 
@@ -136,12 +136,20 @@ header a{
 }
 
 .hero-interaction-button {
-  height: 60px;
-  width: 100px;
   margin: 10px auto;
-  background-color: rgba(255,255,240,0.5);
+  height: 40px;
+  width: 150px;
+  padding: 5px 10px;
   border-radius: 25px;
-  font-size: 20px;
+  border: 2px solid #10343F;
+  background-color: rgba(255,255,240,0.7);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.hero-interaction-button a {
+  color: #10343F;
+  text-decoration: none;
 }
 
 #section-splitter {
@@ -150,6 +158,10 @@ header a{
   width: 50%;
   border: 0.5px solid rgba(255,255,240,0.5);
   margin: 5px auto;
+}
+
+.sub-section-full {
+  padding-bottom: 31px;
 }
 
 /* MAIN SECTION TITLES */
@@ -212,45 +224,84 @@ header a{
 /* MEDIA QUERYS SPECS */
 
 @media screen and (max-width: 575px) {
+  /* header */
   #contracted-menu-spec {
     margin-top: 20px;
     margin-left: 0;
     padding-left: 0;
   }
-  .site--navigation a {
+  
+  .site-navigation a {
     border-left: 1px solid #fffff0;
   }
+  
   #border-separation a {
     padding-left: 5px;
   }
+  
   .hero-image-container h3 {
   font-size: 200%;
   }
+  
+  /* main-section */
+
+  /* footer */
+  
 } 
 
 @media screen and (min-width: 595px) {
-  .site--navigation a:last-child {
+  /* header */
+  .site-navigation a:last-child {
     margin-right: 0;
   }
+  /* main-section */
+
+  /* footer */
   #copyright-pop-alert {
     width: 90%;
   }
+  
   .social-icons i {
-  color: #fffff0;
-  padding-top: 5px;
-  padding-right: 30px;
+    color: #fffff0;
+    padding-top: 5px;
+    padding-right: 30px;
   }
 }
 
 @media screen and (min-width: 725px) {
-  .site--navigation a {
+  /* header */
+
+  .site-navigation a {
     font-size: 30px;
     padding: 0;
     margin-right: 20px;
   }
-  .hero-image-container h3 {
-  font-size: 280%;
+  .hero-image-container div {
+    background-position: top;
+    max-width: 530px;
   }
+    
+  #hero-blockquote {
+  padding: 120px 0 0 0;
+  }
+    
+  /* main-section */
+
+  /* footer */
+
+}
+
+@media screen and (min-width: 980px) {
+  /* header */
+
+  .hero-image-container h3 {
+    font-size: 280%;
+  }
+  
+  /* main-section */
+
+  /* footer */
+
 }
 
 /* LINKS HOVER AND BUTTON EFFECTS */
@@ -262,8 +313,8 @@ header a:hover {
   text-decoration: none;
 }
 
-.site--navigation a:hover,
-.site--navigation a:active {
+.site-navigation a:hover,
+.site-navigation a:active {
   color: #ff8f00;
   text-shadow: 0px -3px 8px rgba(255,255,240,0.3), 0px 3px 8px rgba(255,255,240,0.3), -3px 0px 8px rgba(255,255,240,0.3), 3px 0px 8px rgba(255,255,240,0.3);
   letter-spacing: 5px;
@@ -273,6 +324,17 @@ header a:hover {
 }
 
 input[type=checkbox]:checked ~ label {
+  color: #ff8f00;
+}
+
+  /* main section home */
+
+.hero-interaction-button:hover {
+  border: 2px solid #ff8f00;
+  background-color: #10343F;
+}
+
+.hero-interaction-button:hover a {
   color: #ff8f00;
 }
 
