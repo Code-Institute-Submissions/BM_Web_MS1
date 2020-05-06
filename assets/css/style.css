@@ -222,7 +222,6 @@ section h2 {
 .sinopsis-text-med {
   margin: 10px 0;
   text-align: justify;
-  font-size: 15px;
 }
 
 .sinopsis-text-med p {
@@ -296,12 +295,16 @@ section h2 {
   height: 300px;
 }
 
-.review-header {
+#review-header p {
+  width: auto;
+  text-align: center;
   text-decoration: underline;
+  text-decoration-color: #fffff0;
   font-size: 115%;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-left: 50px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
 .review-content-small {
@@ -311,22 +314,36 @@ section h2 {
 }
 
 .review-content-small p {
-  padding: 10px;
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 5px;
   border: 2px solid #10343F;
   border-radius: 25px;
   background-color: rgba(16,52,63,0.7); 
   color: #fffff0;
+  text-align: center
+}
+
+#review-text {
+  min-width: 66%;
+  margin-right: 1%;
+}
+
+.review-content-small i,
+.review-content-med i {
+  display: inline-block;
+  min-width: 33%;
+  word-break: break-all;
+  color: #faa539;
 }
 
 .review-content-med {
   margin: 10px 0;
-  text-align: justify;
-  font-size: 15px;
 }
 
 .review-content-med p {
   margin-left: 5px;
-  padding: 10px;
+  padding: 10px 20px;
   border: 2px solid #10343F;
   border-radius: 25px;
   background-color: rgba(16,52,63,0.7); 
