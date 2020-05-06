@@ -1,10 +1,10 @@
-/* FONTS */
+/* ------------------------------- FONTS ------------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap'); /* font-family: 'Euphoria Script', cursive; */
 @import url('https://fonts.googleapis.com/css?family=Cardo&display=swap'); /* font-family: 'Cardo', serif; */
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); /* font-family: 'Lato', sans-serif; */
 
-/* STRUCTURE */
+/* ------------------------------- STRUCTURE ------------------------------- */
 
 body {
   color: floralwhite;
@@ -30,7 +30,7 @@ footer {
   border-top: 2px solid #fffff0;
 }
 
-/* HEADER */
+/* ------------------------------- HEADER ------------------------------- */
 
 header a{
   text-decoration: none;
@@ -86,7 +86,7 @@ header a{
   font-weight: 600;
 }
 
-/* MAIN SECTION GENERAL */
+/* ------------------------------- MAIN SECTION GENERAL ------------------------------- */
 
 #section-title {
   font-family: 'Euphoria Script', cursive;
@@ -106,7 +106,7 @@ header a{
   color: #fffff0;
 }
 
-/* MAIN SECTION HOME */
+/* ------------------------------- MAIN SECTION HOME ------------------------------- */
 
 .hero-content-full { /* div */
   min-height: 450px;
@@ -168,7 +168,7 @@ header a{
   padding-bottom: 31px;
 }
 
-/* MAIN SECTION TITLES */
+/* ------------------------------- MAIN SECTION TITLES ------------------------------- */
 
 section h2 {
   padding-top: 20px;
@@ -238,7 +238,7 @@ section h2 {
 .carousel-control-next {
   position: absolute;
   top: 200px;
-  width: 50px;
+  width: 60px;
   align-items: start;
   background-color: transparent;
 }
@@ -247,8 +247,8 @@ section h2 {
 .carousel-control-next-icon {
   background-color: #10343F;
   border: 2px solid #fffff0;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
 
 .carousel-indicators {
@@ -260,19 +260,89 @@ section h2 {
 
 .carousel-indicators li {
   width: 20%;
-  height: 3px;
+  height: 6px;
 }
 
-/* MAIN SECTION REVIEWS */
+.carousel-indicators .active {
+  background-color: #faa539;
+}
+
+/* ------------------------------- MAIN SECTION REVIEWS ------------------------------- */
+
+section h2 {
+  padding-top: 20px;
+}
+
+#reviews-carousel {
+  min-height: 400px;
+  height: auto;
+  width: 100%;
+  padding: 10px 0 31px 0;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#reviews-carousel-content {
+  text-align: center;
+  padding: 10px 0;
+  border: 2px solid #10343F;
+  border-radius: 25px;
+  background-color: rgba(255,255,240,0.3); 
+}
+
+.review-image img {
+  border: 2px solid #10343F;
+  border-radius: 25px;
+  height: 300px;
+}
+
+.review-header {
+  text-decoration: underline;
+  font-size: 115%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 50px;
+}
+
+.review-content-small {
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.review-content-small p {
+  padding: 10px;
+  border: 2px solid #10343F;
+  border-radius: 25px;
+  background-color: rgba(16,52,63,0.7); 
+  color: #fffff0;
+}
+
+.review-content-med {
+  margin: 10px 0;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.review-content-med p {
+  margin-left: 5px;
+  padding: 10px;
+  border: 2px solid #10343F;
+  border-radius: 25px;
+  background-color: rgba(16,52,63,0.7); 
+  color: #fffff0;
+}
+
+/* --carousel features defined previous section-- */
 
 
-/* MAIN SECTION BLOG */
+/* ------------------------------- MAIN SECTION BLOG ------------------------------- */
 
 
-/* MAIN SECTION CONTACT */
+/* ------------------------------- MAIN SECTION CONTACT ------------------------------- */
 
 
-/* FOOTER */
+/* ------------------------------- FOOTER ------------------------------- */
 
 .copyright-alert h6 {
   padding-top: 10px;
@@ -317,10 +387,10 @@ section h2 {
   padding-right: 10px;
 }
 
-/* MEDIA QUERYS SPECS */
+/* ------------------------------- MEDIA QUERYS SPECS ------------------------------- */
 
 @media screen and (max-width: 575px) {
-  /* header */
+  /* ------------------------------- header ------------------------------- */
   #contracted-menu-spec {
     margin-top: 20px;
     margin-left: 0;
@@ -335,23 +405,27 @@ section h2 {
     padding-left: 5px;
   }
   
-  /* main-section */
+  /* ------------------------------- main-section ------------------------------- */
   
-  /* footer */
+  /* ------------------------------- footer ------------------------------- */
   
 } 
 
 @media screen and (min-width: 595px) {
-  /* header */
+  /* ------------------------------- header ------------------------------- */
   .site-navigation a:last-child {
     margin-right: 0;
   }
-  /* main-section */
+  /* ------------------------------- main-section ------------------------------- */
   .sinopsis-image img {
     height: 400px;
   }
   
-  /* footer */
+  .review-image img {
+    height: 400px;
+  }
+  
+  /* ------------------------------- footer ------------------------------- */
   #copyright-pop-alert {
     width: 90%;
   }
@@ -364,7 +438,7 @@ section h2 {
 }
 
 @media screen and (min-width: 725px) {
-  /* header */
+  /* ------------------------------- header ------------------------------- */
 
   .site-navigation a {
     font-size: 30px;
@@ -372,7 +446,7 @@ section h2 {
     margin-right: 20px;
   }
     
-  /* main-section */
+  /* ------------------------------- main-section ------------------------------- */
 
   .hero-image-container div {
     background-position: top;
@@ -383,31 +457,31 @@ section h2 {
     padding: 120px 0 0 0;
   }
 
-  /* footer */
+  /* ------------------------------- footer ------------------------------- */
 
 }
 
 @media screen and (min-width: 992px) {
-  /* header */
+  /* ------------------------------- header ------------------------------- */
   
-  /* main-section */
+  /* ------------------------------- main-section ------------------------------- */
 
-  /* footer */
+  /* ------------------------------- footer ------------------------------- */
 
 }
 
 @media screen and (min-width: 1200px) {
-  /* header */
+  /* ------------------------------- header ------------------------------- */
   
-  /* main-section */
-  
-  /* footer */
+  /* ------------------------------- main-section ------------------------------- */
+
+  /* ------------------------------- footer ------------------------------- */
 
 }
 
-/* LINKS HOVER AND BUTTON EFFECTS */
+/* ------------------------------- LINKS HOVER AND BUTTON EFFECTS ------------------------------- */
 
-  /* header */
+  /* ------------------------------- header ------------------------------- */
 
 header a:hover {
   color: #fffff0;
@@ -428,7 +502,7 @@ input[type=checkbox]:checked ~ label {
   color: #ff8f00;
 }
 
-  /* main section home */
+  /* ------------------------------- main section home ------------------------------- */
 
 .hero-interaction-button:hover {
   border: 2px solid #ff8f00;
@@ -439,7 +513,7 @@ input[type=checkbox]:checked ~ label {
   color: #ff8f00;
 }
 
-  /* footer */
+  /* ------------------------------- footer ------------------------------- */
 
 .copyright-alert:hover #copyright-pop-alert {
   opacity: 1;
@@ -458,7 +532,7 @@ input[type=checkbox]:checked ~ label {
 }
 
 
-/* ANIMATIONS/KF */
+/* ------------------------------- ANIMATIONS/KF ------------------------------- */
 
 @keyframes icon-movement {
   10%, 50%, 90% {transform: translate(-1px, 0);}
