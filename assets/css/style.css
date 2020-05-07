@@ -109,7 +109,7 @@ header a{
 /* ------------------------------- MAIN SECTION HOME ------------------------------- */
 
 .hero-content-full {
-  max-height: 750px;
+  max-height: 690px;
   overflow: hidden;
 }
 
@@ -117,36 +117,27 @@ header a{
   border-bottom: 2px solid rgba(255,255,240,0.5);
   margin: 0 auto;
   width: 100vw;
-  min-height: 750px;
+  min-height: 690px;
   background: url(../images/background_1.png);
   background-size: cover;
   background-position: top right;
 }
 
 .hero-overlay {
+  max-width: 90%;
   position: relative;
   top: 0;
   margin: 0 auto;
 }
 
-section h2 {
-  padding-top: 20px;
-}
-
-#hero-blockquote {
-  font-style: italic;
-  font-size: 24px;
-  font-weight: 600;
+.hero-book-cover {
+  min-height: 350px;
+  margin: 20px auto;
   text-align: center;
-  padding: 160px 0 0 0;
-  margin: 0;
 }
 
-#hero-blockquote blockquote {
-  background-color: rgba(255,255,240,0.5);
-  border-radius: 25px;
-  margin: 0 15px 0 15px;
-  padding: 4px;
+.hero-book-cover img {
+  max-height: 350px;
 }
 
 .hero-interaction-button {
@@ -161,7 +152,7 @@ section h2 {
   font-weight: 900;
   
   position: relative;
-  top: 250px;
+  top: 10px;
 }
 
 .hero-interaction-button a {
@@ -169,16 +160,26 @@ section h2 {
   text-decoration: none;
 }
 
-#section-splitter {
-  background-color: #fffff0;
-  height: 1px;
-  width: 50%;
-  border: 0.5px solid rgba(255,255,240,0.5);
-  margin: 5px auto;
+#hero-blockquote {
+  position: relative;
+  top: 40px;
+}
+
+#hero-blockquote blockquote {
+  max-width: 400px;
+  color: #fffff0;
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+section h2 {
+  padding-top: 20px;
 }
 
 .sub-section-full {
-  padding-bottom: 31px;
+  padding-bottom: 35px;
 }
 
 /* ------------------------------- MAIN SECTION TITLES ------------------------------- */
@@ -453,9 +454,6 @@ section h2 {
     margin-right: 0;
   }
   /* ------------------------------- main-section ------------------------------- */
-  .hero-interaction-button {
-    top: 325px;
-  }
   
   .sinopsis-image img {
     height: 400px;
@@ -488,13 +486,8 @@ section h2 {
     
   /* ------------------------------- main-section ------------------------------- */
 
-  .hero-image-container div {
-    background-position: top;
-    max-width: 530px;
-  }
-    
   #hero-blockquote {
-    padding: 120px 0 0 0;
+    padding: ;
   }
 
   /* ------------------------------- footer ------------------------------- */
