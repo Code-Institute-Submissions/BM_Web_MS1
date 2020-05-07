@@ -400,10 +400,32 @@ section h2 {
 /* --carousel features defined previous section-- */
 
 
+/* ------------------------------- MAIN SECTION ABOUT ------------------------------- */
+
+.about-section {
+  padding: 0;
+}
+
+.agenda-column {
+  background-color: green;
+}
+
+.biography-column {
+  background-color: gold;
+  border-left: 2px solid #fffff0;
+}
+
+.social-feed-column {
+  background-color: red;
+  border-left: 2px solid #fffff0;
+}
+
 /* ------------------------------- MAIN SECTION BLOG ------------------------------- */
 
 
+
 /* ------------------------------- MAIN SECTION CONTACT ------------------------------- */
+
 
 
 /* ------------------------------- FOOTER ------------------------------- */
