@@ -109,8 +109,28 @@ header a{
 /* ------------------------------- MAIN SECTION HOME ------------------------------- */
 
 .hero-content-full {
-  min-height: 450px;
+  max-height: 750px;
   overflow: hidden;
+}
+
+.hero-image-container {
+  border-bottom: 2px solid rgba(255,255,240,0.5);
+  margin: 0 auto;
+  width: 100vw;
+  min-height: 750px;
+  background: url(../images/background_1.png);
+  background-size: cover;
+  background-position: top right;
+}
+
+.hero-overlay {
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+}
+
+section h2 {
+  padding-top: 20px;
 }
 
 #hero-blockquote {
@@ -129,25 +149,19 @@ header a{
   padding: 4px;
 }
 
-.hero-image-container {
-  border-bottom: 2px solid rgba(255,255,240,0.5);
-  margin: 0 auto;
-  width: 100vw;
-  height: 550px;
-  background: url(../images/background_1.png);
-  background-size: cover;
-}
-
 .hero-interaction-button {
-  margin: 10px auto;
   height: 40px;
   width: 150px;
+  margin: 0 auto;
   padding: 5px 10px;
   border-radius: 25px;
   border: 2px solid #10343F;
   background-color: rgba(255,255,240,0.7);
   font-size: 18px;
   font-weight: 900;
+  
+  position: relative;
+  top: 250px;
 }
 
 .hero-interaction-button a {
@@ -168,10 +182,6 @@ header a{
 }
 
 /* ------------------------------- MAIN SECTION TITLES ------------------------------- */
-
-section h2 {
-  padding-top: 20px;
-}
 
 #titles-carousel {
   min-height: 400px;
@@ -443,6 +453,10 @@ section h2 {
     margin-right: 0;
   }
   /* ------------------------------- main-section ------------------------------- */
+  .hero-interaction-button {
+    top: 325px;
+  }
+  
   .sinopsis-image img {
     height: 400px;
   }
