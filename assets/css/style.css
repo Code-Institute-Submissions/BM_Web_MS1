@@ -391,15 +391,22 @@ section h2 {
   background-color: green;
 }
 
+.agenda-column ul {
+
+}
+
+.agenda-column li {
+
+}
+
 .biography-column {
-  background-color: gold;
-  border: 2px solid #fffff0;
+  min-height: 65vh;
   padding-bottom: 30px;
 }
 
 .biography-column img {
-  float: right;
-  margin: 10px 30px;
+  display: block;
+  margin: 0 auto;
   height: 200px;
   width: 200px;
   border: 2px solid #fffff0;
@@ -408,13 +415,22 @@ section h2 {
 .biography-column p {
   margin: 0 20px;
   padding: 10px;
-  text-indent: 10px;
+  text-indent: 15px;
   text-align: justify;
+  font-size: 115%;
+  color: #fffff0;
 }
 
 .social-feed-column {
   background-color: red;
-  text-align: center;
+}
+
+.social-feed-column ul {
+
+}
+
+.social-feed-column li {
+
 }
 
 /* ------------------------------- MAIN SECTION BLOG ------------------------------- */
@@ -484,7 +500,7 @@ section h2 {
   .sinopsis-text-small {
     text-align: center;
   }
-  
+    
   .biography-column p {
     clear: both;
     text-align: justify;
@@ -539,6 +555,14 @@ section h2 {
   
   .review-image img {
     height: 400px;
+  }
+  
+  .biography-column img {
+    float: right;
+    margin: 20px;
+    max-height: 200px;
+    max-width: 200px;
+    border: 2px solid #fffff0;
   }
   
   /* ------------------------------- footer ------------------------------- */
