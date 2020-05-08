@@ -94,10 +94,6 @@ header a{
   color: #fffff0;
 }
 
-.clickable {
-  z-index: 99;
-}
-
 /* ------------------------------- MAIN SECTION HOME ------------------------------- */
 
 .hero-content-full {
@@ -314,14 +310,14 @@ section h2 {
   height: 300px;
 }
 
-#review-header p {
+.review-header h3 {
   width: auto;
   text-align: center;
   color: #fffff0;
   font-size: 250%;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: none;
 }
 
@@ -342,7 +338,7 @@ section h2 {
   text-align: center
 }
 
-#review-text {
+.review-text {
   max-width: 66%;
   margin-right: 1%;
   font-style: italic;
@@ -350,7 +346,6 @@ section h2 {
 
 .review-content-small i,
 .review-content-med i {
-  z-index: 99;
   display: inline-block;
   min-width: 33%;
   word-break: break-all;
@@ -488,7 +483,6 @@ section h2 {
   
   .sinopsis-text-small {
     text-align: center;
-    z-index: 16;
   }
   
   .biography-column p {
