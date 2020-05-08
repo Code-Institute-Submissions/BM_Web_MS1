@@ -621,7 +621,7 @@ header a:hover {
   background-color: #10343F;
 }
 
-.title-interaction-button:hover a {
+.title-interaction-button:hover {
   color: #ff8f00;
 }
 
