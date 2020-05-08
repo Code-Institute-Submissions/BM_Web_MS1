@@ -412,22 +412,109 @@ section h2 {
   overflow-y: hidden;
 }
 
+    /* --- agenda --- */
 .agenda-column {
   max-height: 90vh;
   overflow-y: scroll;
+  color: #fffff0;
+  border-top: 2px solid #fffff0;
 }
 
 .agenda-column ul {
   list-style-type: none;
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 
 .agenda-column li {
-  min-height: 150px;
-  padding: 0 10px;
-  margin-bottom: 10px;
+  min-height: 100px;
+  margin: 20px 0;
 }
 
+.agenda-column li:nth-child(odd) {
+  border-bottom: 4px solid #ff8f00;
+  border-bottom: 4px solid rgba(255,143,0,0.7);
+}
+
+.agenda-column li:nth-child(even) {
+  border-bottom: 4px solid #10343F;
+  border-bottom: 4px solid rgba(16,52,63,0.7);
+}
+
+.agenda-column li:last-child {
+  border-bottom: none;
+}
+
+.agenda-column li p {
+  min-width: 69%;
+  margin: 0 2%;
+  padding: 0 5%;
+  font-size: 120%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.agenda-column li p span {
+  font-size: 80%;
+  word-spacing: 3px;
+  text-transform: capitalize;
+}
+
+.agenda-column li p:nth-child(even) {
+  text-align: left;
+}
+
+.agenda-column li p:nth-child(odd) {
+  text-align: right;
+}
+
+.agenda-column li p:last-child {
+  text-align: center;
+}
+
+.agenda-column li i {
+  min-width: 27%;
+  min-height: 100px;
+  padding-top: 20px;
+  font-size: 200%;
+  text-align: center;
+}
+
+.agenda-column li i span {
+  text-transform: uppercase;
+  font-size: 40%;
+}
+
+.agenda-column li i:nth-child(odd) {
+  background-color: #ff8f00;
+  background-color: rgba(255,143,0,0.7);
+}
+
+.agenda-column li i:nth-child(even) {
+  background-color: #10343F;
+  background-color: rgba(16,52,63,0.7);
+}
+
+.events-interaction-button {
+  height: 40px;
+  width: 250px;
+  padding: 5px 10px;
+  
+  border-radius: 25px;
+  border: 2px solid #10343F;
+  background-color: rgb(255,255,240);
+  background-color: rgba(255,255,240,0.7);
+  color: #10343F;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+  
+  position: relative;
+  top: 35px;
+}
+
+    /* --- bio --- */
 .biography-column {
   padding-bottom: 30px;
 }
@@ -448,6 +535,7 @@ section h2 {
   color: #fffff0;
 }
 
+    /* --- social feed --- */
 .social-feed-column {
   max-height: 90vh;
   overflow-y: scroll;
@@ -618,6 +706,9 @@ section h2 {
     font-size: 250%;
   }
   
+  .agenda-column {
+    border-top: none;
+  }
   
   /* ------------------------------- footer ------------------------------- */
 
@@ -669,21 +760,11 @@ header a:hover {
 
   /* ------------------------------- main section ------------------------------- */
 
-.hero-interaction-button:hover {
+.hero-interaction-button:hover,
+.title-interaction-button:hover,
+.events-interaction-button:hover {
   border: 2px solid #ff8f00;
   background-color: #10343F;
-}
-
-.hero-interaction-button:hover {
-  color: #ff8f00;
-}
-
-.title-interaction-button:hover {
-  border: 2px solid #ff8f00;
-  background-color: #10343F;
-}
-
-.title-interaction-button:hover {
   color: #ff8f00;
 }
 
