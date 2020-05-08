@@ -59,18 +59,6 @@ header a{
   margin: 0;
 }
 
-#toggle-color {
-  height: 50px;
-  width: 50px;
-  z-index: 1;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  margin-top: -5px;
-  margin-right: -5px;
-  display: none;
-}
-
 .site-navigation button {
   color: #fffff0;
   font-size: 25px;
@@ -88,7 +76,7 @@ header a{
 
 /* ------------------------------- MAIN SECTION GENERAL ------------------------------- */
 
-#section-title {
+.section-title {
   font-family: 'Euphoria Script', cursive;
   font-weight: 800;
   font-size: 350%;
@@ -98,7 +86,7 @@ header a{
   color: #fffff0;
 }
 
-#sub-section-title {
+.sub-section-title {
   font-family: 'Lato', sans-serif;
   letter-spacing: 2px;
   text-transform: capitalize;
@@ -106,7 +94,7 @@ header a{
   color: #fffff0;
 }
 
-#clickable {
+.clickable {
   z-index: 99;
 }
 
@@ -147,21 +135,18 @@ header a{
 .hero-interaction-button {
   height: 40px;
   width: 150px;
-  margin: 0 auto;
   padding: 5px 10px;
+  
   border-radius: 25px;
   border: 2px solid #10343F;
   background-color: rgba(255,255,240,0.7);
+  color: #10343F;
+  text-decoration: none;
   font-size: 18px;
   font-weight: 900;
   
   position: relative;
   top: 10px;
-}
-
-.hero-interaction-button a {
-  color: #10343F;
-  text-decoration: none;
 }
 
 #hero-blockquote {
@@ -412,12 +397,28 @@ section h2 {
 
 .biography-column {
   background-color: gold;
-  border-left: 2px solid #fffff0;
+  border: 2px solid #fffff0;
+  padding-bottom: 30px;
+}
+
+.biography-column img {
+  float: right;
+  margin: 10px 30px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #fffff0;
+}
+
+.biography-column p {
+  margin: 0 20px;
+  padding: 10px;
+  text-indent: 10px;
+  text-align: justify;
 }
 
 .social-feed-column {
   background-color: red;
-  border-left: 2px solid #fffff0;
+  text-align: center;
 }
 
 /* ------------------------------- MAIN SECTION BLOG ------------------------------- */
@@ -461,7 +462,7 @@ section h2 {
   left: 5%;
 }
 
-.social-icons h6  {
+.social-icons {
   text-align: right;
   margin: 0 auto;
   font-size: 25px;
@@ -487,6 +488,14 @@ section h2 {
   .sinopsis-text-small {
     text-align: center;
     z-index: 16;
+  }
+  
+  .biography-column p {
+    clear: both;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px 15px;
+    text-indent: 10px;
   }
 
   /* ------------------------------- footer ------------------------------- */
@@ -560,10 +569,6 @@ section h2 {
     
   /* ------------------------------- main-section ------------------------------- */
 
-  #hero-blockquote {
-    padding: ;
-  }
-
   /* ------------------------------- footer ------------------------------- */
 
 }
@@ -605,10 +610,6 @@ header a:hover {
   border-left: none;
 }
 
-input[type=checkbox]:checked ~ label {
-  color: #ff8f00;
-}
-
   /* ------------------------------- main section ------------------------------- */
 
 .hero-interaction-button:hover {
@@ -616,7 +617,7 @@ input[type=checkbox]:checked ~ label {
   background-color: #10343F;
 }
 
-.hero-interaction-button:hover a {
+.hero-interaction-button:hover {
   color: #ff8f00;
 }
 
