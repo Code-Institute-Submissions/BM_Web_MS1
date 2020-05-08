@@ -30,6 +30,25 @@ footer {
   border-top: 2px solid #fffff0;
 }
 
+/* -- scrollbars -- */
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #fffff0;
+  background: rgba(255,255,240,0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: #10343F;
+  background: rgba(16,52,63,0.9);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8f00;
+  background: rgba(255,143,0,0.7);
+}
+
+
 /* ------------------------------- HEADER ------------------------------- */
 
 header a{
@@ -390,22 +409,26 @@ section h2 {
 
 .about-section {
   padding: 0;
+  overflow-y: hidden;
 }
 
 .agenda-column {
-  background-color: green;
+  max-height: 90vh;
+  overflow-y: scroll;
 }
 
 .agenda-column ul {
-
+  list-style-type: none;
+  padding: 15px 0;
 }
 
 .agenda-column li {
-
+  min-height: 150px;
+  padding: 0 10px;
+  margin-bottom: 10px;
 }
 
 .biography-column {
-  min-height: 65vh;
   padding-bottom: 30px;
 }
 
@@ -422,20 +445,26 @@ section h2 {
   padding: 10px;
   text-indent: 15px;
   text-align: justify;
-  font-size: 115%;
   color: #fffff0;
 }
 
 .social-feed-column {
-  background-color: red;
+  max-height: 90vh;
+  overflow-y: scroll;
+  background-color: #FFC273;
+  background-color: rgba(255,194,115,0.9);
+  border-left: 3px solid #10343F;
+  border-left: 3px solid  rgba(16,52,63,0.9);
 }
 
 .social-feed-column ul {
-
+  list-style-type: none;
+  padding: 15px;
 }
 
 .social-feed-column li {
-
+  min-height: 300px;
+  margin-bottom: 10px;
 }
 
 /* ------------------------------- MAIN SECTION BLOG ------------------------------- */
@@ -588,7 +617,8 @@ section h2 {
   .review-header h3 {
     font-size: 250%;
   }
-
+  
+  
   /* ------------------------------- footer ------------------------------- */
 
 }
