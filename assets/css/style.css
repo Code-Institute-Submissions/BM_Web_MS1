@@ -291,6 +291,7 @@ section h2 {
 
 /* ------------------------------- MAIN SECTION TITLES ------------------------------- */
 
+/* carousel features */
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -328,6 +329,8 @@ section h2 {
   background-color: #faa539;
 }
 
+/* content features */
+
 #titles-carousel {
   min-height: 400px;
   height: auto;
@@ -354,12 +357,11 @@ section h2 {
 }
 
 .sinopsis-header {
-  min-width: 90%;
   text-decoration: underline;
   font-size: 120%;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-left: 1%;
+  color: #fffff0;
 }
 
 .title-interaction-button {
@@ -371,9 +373,6 @@ section h2 {
   font-family: 'Lato', sans-serif;
   font-size: 110%;
   font-weight: 900;
-  
-  min-width: 50%;
-  position: static;
 }
 
 .title-interaction-button a {
@@ -381,30 +380,14 @@ section h2 {
   text-decoration: none;
 }
 
-.sinopsis-text-small {
-  margin-top: 10px;
-  padding: 3px;
-  text-align: center;
-  font-size: 15px;
-}
-
-.sinopsis-text-small p {
-  padding: 5px;
-  color: #fffff0;
-}
-
-.sinopsis-text-med {
-  margin: 10px 0;
-  text-align: justify;
-}
-
-.sinopsis-text-med p {
-  margin-left: 5px;
-  padding: 10px;
+.sinopsis-text {
   color: #fffff0;
 }
 
 /* ------------------------------- MAIN SECTION REVIEWS ------------------------------- */
+
+/* --carousel features, defined previous section-- */
+/* content features */
 
 section h2 {
   padding-top: 20px;
@@ -474,7 +457,7 @@ section h2 {
   display: inline-block;
   min-width: 33%;
   word-break: break-all;
-  color: #faa539;
+  color: rgba(104, 213, 247, 0.87);
   font-size: 150%;
 }
 
@@ -502,9 +485,6 @@ section h2 {
   border-radius: 25px;
   color: #fffff0;
 }
-
-/* --carousel features defined previous section-- */
-
 
 /* ------------------------------- MAIN SECTION ABOUT ------------------------------- */
 
@@ -712,6 +692,7 @@ section h2 {
 /* ------------------------------- MEDIA QUERYS SPECS ------------------------------- */
 
 @media screen and (max-width: 450px) {
+  
   /* ------------------------------- header ------------------------------- */
 
   /* ------------------------------- main-section ------------------------------- */
@@ -729,6 +710,7 @@ section h2 {
 } 
 
 @media screen and (max-width: 575px) {
+  
   /* ------------------------------- header ------------------------------- */
   #contracted-menu-spec {
     margin-top: 20px;
@@ -758,6 +740,7 @@ section h2 {
 } 
 
 @media screen and (min-width: 595px) {
+  
   /* ------------------------------- header ------------------------------- */
   .site-navigation a:last-child {
     margin-right: 0;
@@ -824,13 +807,6 @@ section h2 {
   
   /* ------------------------------- main-section ------------------------------- */
 
-  .title-interaction-button {
-    min-width: auto;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-  }
-  
   /* ------------------------------- footer ------------------------------- */
 
 }
@@ -874,10 +850,9 @@ header a:hover {
   color: #ff8f00;
 }
 
-.review-content-small a:hover,
-.review-content-med a:hover {
-  text-decoration: overline;
-  letter-spacing: 1.5px;
+.review-content-small i:hover,
+.review-content-med i:hover {
+  transform: scale(1.1);
 }
 
   /* ------------------------------- footer ------------------------------- */
