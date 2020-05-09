@@ -117,6 +117,18 @@ header a{
   color: #fffff0;
 }
 
+.interaction-button {
+  border-radius: 25px;
+  border: 2px solid #10343F;
+  background-color: rgb(255,255,240);
+  background-color: rgba(255,255,240,0.7);
+  color: #10343F;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+
 /* ------------------------------- MAIN SECTION HOME ------------------------------- */
 
 .hero-content-full {
@@ -152,24 +164,6 @@ header a{
   max-height: 350px;
 }
 
-.hero-interaction-button {
-  height: 40px;
-  width: 150px;
-  padding: 5px 10px;
-  
-  border-radius: 25px;
-  border: 2px solid #10343F;
-  background-color: rgb(255,255,240);
-  background-color: rgba(255,255,240,0.7);
-  color: #10343F;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 900;
-  
-  position: relative;
-  top: 10px;
-}
-
 #hero-blockquote {
   position: relative;
   top: 40px;
@@ -189,108 +183,8 @@ section h2 {
   padding-top: 20px;
 }
 
-.sub-section-full {
-  padding: 0 0 35px 0;
-  margin: 0;
-}
-
-.peak-agenda-section {
-  color: #fffff0;
-  padding: 0;
-}
-
-.peak-agenda-section ul {
-  list-style-type: none;
-  padding: 15px 10px;
-}
-
-.peak-agenda-section li {
-  min-height: 100px;
-  margin: 20px 0;
-}
-
-.peak-agenda-section li:nth-child(1) {
-  border-bottom: 4px solid #ff8f00;
-  border-bottom: 4px solid rgba(255,143,0,0.7);
-}
-
-.peak-agenda-section li:nth-child(2) {
-  border-bottom: 4px solid #10343F;
-  border-bottom: 4px solid rgba(16,52,63,0.7);
-}
-
-.peak-agenda-section li:last-child {
-  border-bottom: none;
-}
-
-.peak-agenda-section li i {
-  min-width: 27%;
-  min-height: 100px;
-  padding-top: 20px;
-  font-size: 200%;
-  text-align: center;
-}
-
-.peak-agenda-section li i:nth-child(1) {
-  background-color: #ff8f00;
-  background-color: rgba(255,143,0,0.7);
-}
-
-.peak-agenda-section li i:nth-child(2) {
-  background-color: #10343F;
-  background-color: rgba(16,52,63,0.7);
-}
-
-.peak-agenda-section li i span {
-  text-transform: uppercase;
-  font-size: 40%;
-}
-
-.peak-agenda-section li p {
-  min-width: 69%;
-  margin: 0 2%;
-  padding: 0 5%;
-  font-size: 120%;
-  font-weight: 600;
-  letter-spacing: 1px;
-  word-spacing: 5px;
-  text-transform: uppercase;
-}
-
-.peak-agenda-section li:nth-child(1) p {
-  text-align: left;
-}
-
-.peak-agenda-section li:nth-child(2) p {
-  text-align: right;
-}
-
-.peak-agenda-section li:last-child {
-  text-align: center;
-}
-
-.peak-agenda-section li p span {
-  font-size: 80%;
-  word-spacing: 3px;
-  text-transform: capitalize;
-}
-
-.peak-interaction-button {
-  height: 40px;
-  width: 220px;
-  padding: 5px 10px;
-  
-  border-radius: 25px;
-  border: 2px solid #10343F;
-  background-color: rgb(255,255,240);
-  background-color: rgba(255,255,240,0.7);
-  color: #10343F;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 900;
-  
-  position: relative;
-  top: 35px;
+.peak-section-full {
+  width: 100%;
 }
 
 /* ------------------------------- MAIN SECTION TITLES ------------------------------- */
@@ -361,17 +255,6 @@ section h2 {
   color: #fffff0;
 }
 
-.title-interaction-button {
-  padding: 1px 6px !important;
-  border-radius: 25px;
-  border: 2px solid #10343F;
-  background-color: rgb(255,255,240);
-  background-color: rgba(255,255,240,0.7);
-  font-family: 'Lato', sans-serif;
-  font-size: 110%;
-  font-weight: 900;
-}
-
 .sinopsis-text {
   color: #fffff0;
 }
@@ -433,7 +316,6 @@ section h2 {
 /* ------------------------------- MAIN SECTION ABOUT ------------------------------- */
 
 .about-section {
-  padding: 0;
   overflow-y: hidden;
 }
 
@@ -443,36 +325,50 @@ section h2 {
   overflow-y: scroll;
   color: #fffff0;
   border-top: 2px solid #fffff0;
-}
-
-.agenda-column ul {
   list-style-type: none;
-  padding: 15px 10px;
 }
 
-.agenda-column li {
+.agenda-event {
+  list-style-type: none;
   min-height: 100px;
-  margin: 20px 0;
 }
 
-.agenda-column li:nth-child(odd) {
+.agenda-event:nth-child(odd) {
   border-bottom: 4px solid #ff8f00;
   border-bottom: 4px solid rgba(255,143,0,0.7);
 }
 
-.agenda-column li:nth-child(even) {
+.agenda-event:nth-child(even) {
   border-bottom: 4px solid #10343F;
   border-bottom: 4px solid rgba(16,52,63,0.7);
 }
 
-.agenda-column li:last-child {
+.agenda-event:last-child {
   border-bottom: none;
 }
 
-.agenda-column li p {
-  min-width: 69%;
-  margin: 0 2%;
-  padding: 0 5%;
+.agenda-icon {
+  min-height: 100px;
+  min-width: 100px;
+  font-size: 180%;
+}
+
+.agenda-icon span {
+  text-transform: uppercase;
+  font-size: 40%;
+}
+
+.agenda-icon:nth-child(odd) {
+  background-color: #ff8f00;
+  background-color: rgba(255,143,0,0.7);
+}
+
+.agenda-icon:nth-child(even) {
+  background-color: #10343F;
+  background-color: rgba(16,52,63,0.7);
+}
+
+.agenda-text {
   font-size: 120%;
   font-weight: 600;
   letter-spacing: 1px;
@@ -480,63 +376,10 @@ section h2 {
   text-transform: uppercase;
 }
 
-.agenda-column li p span {
+.agenda-text span {
   font-size: 80%;
   word-spacing: 3px;
   text-transform: capitalize;
-}
-
-.agenda-column li:nth-child(even) p {
-  text-align: right;
-}
-
-.agenda-column li:nth-child(odd) p {
-  text-align: left;
-}
-
-.agenda-column li:last-child {
-  text-align: center;
-}
-
-.agenda-column li i {
-  min-width: 27%;
-  min-height: 100px;
-  padding-top: 20px;
-  font-size: 200%;
-  text-align: center;
-}
-
-.agenda-column li i span {
-  text-transform: uppercase;
-  font-size: 40%;
-}
-
-.agenda-column li i:nth-child(odd) {
-  background-color: #ff8f00;
-  background-color: rgba(255,143,0,0.7);
-}
-
-.agenda-column li i:nth-child(even) {
-  background-color: #10343F;
-  background-color: rgba(16,52,63,0.7);
-}
-
-.events-interaction-button {
-  height: 40px;
-  width: 270px;
-  padding: 5px 10px;
-  
-  border-radius: 25px;
-  border: 2px solid #10343F;
-  background-color: rgb(255,255,240);
-  background-color: rgba(255,255,240,0.7);
-  color: #10343F;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 900;
-  
-  position: relative;
-  top: 35px;
 }
 
     /* --- bio --- */
@@ -729,13 +572,12 @@ section h2 {
   }
     
   /* ------------------------------- main-section ------------------------------- */
-  .peak-agenda-section {
-    width: 80%;
-    margin: 0 auto;
+  .peak-section-full {
+    max-width: 70%;
   }
   
   .agenda-column {
-    border-top: none;
+    border: none;
   }
   
   /* ------------------------------- footer ------------------------------- */
@@ -763,10 +605,7 @@ header a:hover {
 
   /* ------------------------------- main section ------------------------------- */
 
-.hero-interaction-button:hover,
-.peak-interaction-button:hover,
-.title-interaction-button:hover,
-.events-interaction-button:hover {
+.interaction-button:hover {
   border: 2px solid #ff8f00;
   background-color: #10343F;
   color: #ff8f00;
