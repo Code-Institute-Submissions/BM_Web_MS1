@@ -355,7 +355,6 @@ section h2 {
 
 .sinopsis-header {
   text-decoration: underline;
-  text-indent: 1em;
   font-size: 120%;
   font-weight: 600;
   letter-spacing: 1px;
@@ -363,7 +362,7 @@ section h2 {
 }
 
 .title-interaction-button {
-  padding: 1px 6px;
+  padding: 1px 6px !important;
   border-radius: 25px;
   border: 2px solid #10343F;
   background-color: rgb(255,255,240);
@@ -371,11 +370,6 @@ section h2 {
   font-family: 'Lato', sans-serif;
   font-size: 110%;
   font-weight: 900;
-}
-
-.title-interaction-button a {
-  color: #10343F;
-  text-decoration: none;
 }
 
 .sinopsis-text {
