@@ -237,7 +237,6 @@ section h2 {
   background-color: rgba(16,52,63,0.7);
 }
 
-
 .peak-agenda-section li i span {
   text-transform: uppercase;
   font-size: 40%;
@@ -803,7 +802,11 @@ section h2 {
   }
     
   /* ------------------------------- main-section ------------------------------- */
-
+  .peak-agenda-section {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
   .review-header h3 {
     font-size: 250%;
   }
