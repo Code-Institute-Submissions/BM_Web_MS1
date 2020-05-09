@@ -46,7 +46,7 @@
     <section class="container-fluid">
       <!-- MAIN CONTENT (SMALL NAV, COVERS AND REVIEWS) -->
       <h2 class="section-title">Reviews</h2>
-      <div id="reviews-carousel" class="carousel" data-interval="false">
+      <div id="reviews-carousel" class="carousel pb-5" data-interval="false">
         <a class="carousel-control-prev" href="#reviews-carousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -60,106 +60,100 @@
           <li data-target="#reviews-carousel" data-slide-to="1"></li>
           <li data-target="#reviews-carousel" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" id="reviews-carousel-content">
+        <div id="reviews-carousel-content" class="mx-auto mt-4 mb-1 text-center carousel-inner p-3">
           <!--                       BOOK 1                       -->
           <div class="carousel-item active">
-            <div class="row justify-content-center align-items-center">
-              <div class=" col col-lg-4 d-block review-image">
+            <div class="row justify-content-center">
+              <!-- cover img -->
+              <div class="pl-3 my-auto col-md-12 col-lg-4 review-image">
                 <img src="assets/images/book_1_cover.png" height="400" alt="Tú eras la elegida">
               </div>
-              <!-- screen set-up -->
-              <div class="col-8 d-none d-lg-block review-content-med">
-                <div class="d-flex justify-content-center review-header">
-                  <h3>You were the Chosen One</h3>
+              <!-- reviews -->
+              <div class="p-0 mt-3 col-md-12 col-lg-8">
+                <div class="row mx-auto d-flex justify-content-center">
+                  <h3 class="review-header mt-1 p-1">You were the Chosen One</h3>
                 </div>
-                <div class="d-flex justify-content-start">
-                  <p class="d-flex align-items-center"><i class="fab fa-facebook-f"><a href="https://www.facebook.com/" title="anon.user1" target="_blank"> <br><span>@anon.user1</span></a></i><span class="review-text"> "Original fantasy story. I need the second part already!"</span></p>
-                </div>
-                <div class="d-flex justify-content-end">
-                  <p class="d-flex align-items-center justify-content-end"><span class="review-text">"Author makes the reader fall fluidly into the story. Really funny!" </span><i class="fab fa-goodreads-g"><a href="https://www.goodreads.com/" title="anon.user2" target="_blank"> <br><span>@anon.user2</span></a></i></p>
-                </div>
-                <div class="d-flex justify-content-start">
-                  <p class="d-flex align-items-center"><i class="fab fa-instagram"><a href="https://www.instagram.com/" title="anon.user3" target="_blank"> <br><span>@anon.user3</span></a></i><span class="review-text"> "Intriging lead character and surprising adventure. Can't wait!"</span></p>
-                </div>
-              </div>
-            </div>
-            <!-- mobile device set-up -->
-            <div class="col d-block d-lg-none review-content-small">
-              <div class="d-flex justify-content-center review-header">
-                <h3>You were the Chosen One</h3>
-              </div>
-              <div class="d-flex">
-                <p class="d-flex align-items-center justify-content-center"><i class="fab fa-facebook-f"><a href="https://www.facebook.com/" title="anon.user1" target="_blank"> <br><span>@anon.user1</span></a></i><span class="review-text"> "Original fantasy story. I need the second part already!"</span></p>
-              </div>
-              <div class="d-flex">
-                <p class="d-flex align-items-center justify-content-center"><span class="review-text">"Author makes the reader fall fluidly into the story. Really funny!" </span><i class="fab fa-goodreads-g"><a href="https://www.goodreads.com/" title="anon.user2" target="_blank"> <br><span>@anon.user2</span></a></i></p>
-              </div>
-              <div class="d-flex">
-                <p class="d-flex align-items-center justify-content-center"><i class="fab fa-instagram"><a href="https://www.instagram.com/" title="anon.user3" target="_blank"> <br><span>@anon.user3</span></a></i><span class="review-text"> "Intriging lead character and surprising adventure. Can't wait!"</span></p>
+                <ul class="m-4 p-0">
+                  <li class="d-flex justify-content-around p-2 mb-2 review-entry">
+                    <a class="my-auto p-1 review-icons" href="https://www.facebook.com/" title="anon.user1" target="_blank">
+                      <i class="w-100 fab fa-facebook-f"></i> 
+                      <span>@anon.user1</span>
+                    </a>
+                    <p class="my-auto p-1 review-text">"Original fantasy story. I need the second part already!"</p>
+                  </li>
+                  <li class="d-flex justify-content-around p-2 mb-2 review-entry">
+                    <p class="my-auto p-1 review-text">"Author makes the reader fall fluidly into the story. Really funny!"</p>
+                    <a class="my-auto p-1 review-icons" href="https://www.goodreads.com/" title="anon.user2" target="_blank">
+                      <i class="w-100 fab fa-goodreads-g"></i>
+                      <span>@anon.user2</span>
+                    </a>
+                  </li>
+                  <li class="d-flex justify-content-around p-2 mb-2 review-entry">
+                    <a class="my-auto p-1 review-icons" href="https://www.instagram.com/" title="anon.user3" target="_blank">
+                      <i class="w-100 fab fa-instagram"></i>
+                      <span>@anon.user3</span>
+                    </a>
+                    <p class="my-auto p-1 review-text">"Intriging lead character and surprising adventure. Can't wait!"</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
           <!--                       BOOK 2                       -->
           <div class="carousel-item">
-            <div class="row justify-content-center align-items-center">
-              <div class=" col col-lg-4 d-block review-image">
+            <div class="row justify-content-center">
+              <!-- cover img -->
+              <div class="pl-3 my-auto col-md-12 col-lg-4 review-image">
                 <img src="assets/images/book_2_cover.png" height="400" alt="Perdonad a la reina">
               </div>
-              <!-- screen set-up -->
-              <div class="col-8 d-none d-lg-block review-content-med">
-                <div class="d-flex justify-content-center review-header">
-                  <h3>Forgive the Queen</h3>
+              <!-- reviews -->
+              <div class="p-0 mt-3 col-md-12 col-lg-8">
+                <div class="row mx-auto d-flex justify-content-center">
+                  <h3 class="review-header mt-1 p-1">Forgive the Queen</h3>
                 </div>
-                <div class="d-flex justify-content-start">
-                  <p class="d-flex align-items-center justify-content-center"><i class="fab fa-instagram"><a href="https://www.instagram.com/" title="anon.user4" target="_blank"> <br><span>@anon.user4</span></a></i><span class="review-text"> "Fascinating story. Couldn't stop reading"</span></p>
-                </div>
-                <div class="d-flex justify-content-end">
-                  <p class="d-flex align-items-center justify-content-center"><span class="review-text">"Classic fantasy with a twist. Highly recommended!" </span><i class="fab fa-facebook-f"><a href="https://www.facebook.com/" title="anon.user5" target="_blank"> <br><span>@anon.user5</span></a></i></p>
-                </div>
-                <div class="d-flex justify-content-start">
-                  <p class="d-flex align-items-center justify-content-center"><i class="fab fa-goodreads-g"><a href="https://www.goodreads.com/" title="anon.user6" target="_blank"> <br><span>@anon.user6</span></a></i><span class="review-text"> "Great and well developed characters. New favourite author!!"</span></p>
-                </div>
-              </div>
-            </div>
-            <!-- mobile device set-up -->
-            <div class="col d-block d-lg-none align-self-center review-content-small">
-              <div class="d-flex justify-content-center review-header">
-                <h3>Forgive the Queen</h3>
-              </div>
-              <div class="d-flex">
-                <p class="d-flex align-items-center justify-content-center"><i class="fab fa-instagram"><a href="https://www.instagram.com/" title="anon.user4" target="_blank"> <br><span>@anon.user4</span></a></i><span class="review-text"> "Fascinating story. Couldn't stop reading"</span></p>
-              </div>
-              <div class="d-flex">
-                <p class="d-flex align-items-center justify-content-center"><span class="review-text">"Classic fantasy with a twist. Highly recommended!" </span><i class="fab fa-facebook-f"><a href="https://www.facebook.com/" title="anon.user5" target="_blank"> <br><span>@anon.user5</span></a></i></p>
-              </div>
-              <div class="d-flex">
-                <p class="d-flex align-items-center justify-content-center"><i class="fab fa-goodreads-g"><a href="https://www.goodreads.com/" title="anon.user6" target="_blank"> <br><span>@anon.user6</span></a></i><span class="review-text"> "Great and well developed characters. New favourite author!!"</span></p>
+                <ul class="m-4 p-0">
+                  <li class="d-flex justify-content-around p-2 mb-2 review-entry">
+                    <a class="my-auto p-1 review-icons" href="https://www.instagram.com/" title="anon.user4" target="_blank">
+                      <i class="w-100 fab fa-instagram"></i> 
+                      <span>@anon.user4</span>
+                    </a>
+                    <p class="my-auto p-1 review-text">"Fascinating story. Couldn't stop reading"</p>
+                  </li>
+                  <li class="d-flex justify-content-around p-2 mb-2 review-entry">
+                    <p class="my-auto p-1 review-text">"Classic fantasy with a twist. Highly recommended!"</p>
+                    <a class="my-auto p-1 review-icons" href="https://www.facebook.com/" title="anon.user5" target="_blank">
+                      <i class="w-100 fab fa-facebook-f"></i>
+                      <span>@anon.user5</span>
+                    </a>
+                  </li>
+                  <li class="d-flex justify-content-around p-2 mb-2 review-entry">
+                    <a class="my-auto p-1 review-icons" href="https://www.goodreads.com/" title="anon.user6" target="_blank">
+                      <i class="w-100 fab fa-goodreads-g"></i>
+                      <span>@anon.user6</span>
+                    </a>
+                    <p class="my-auto p-1 review-text">"Great and well developed characters. New favourite author!!"</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
           <!--                       BOOK 3                       -->
           <div class="carousel-item">
-            <div class="row justify-content-center align-items-center">
-              <div class=" col col-lg-4 d-block review-image">
+            <div class="row justify-content-center">
+              <!-- cover img -->
+              <div class="pl-3 my-auto col-md-12 col-lg-4 review-image">
                 <img src="assets/images/book_3_cover.png" height="400" alt="¡Morirás!">
               </div>
-              <!-- screen set-up -->
-              <div class="col-8 d-none d-lg-block review-content-med">
-                <div class="d-flex justify-content-center review-header">
-                  <h3>¡You will die!</h3>
+              <!-- reviews -->
+              <div class="p-0 mt-3 col-md-12 col-lg-8">
+                <div class="row mx-auto d-flex justify-content-center">
+                  <h3 class="review-header mt-1 p-1">¡You will die!</h3>
                 </div>
-                <div class="d-flex justify-content-center">
-                  <p><i><span>Coming soon...</span></i></p>
-                </div>
-              </div>
-            </div>
-            <!-- mobile device set-up -->
-            <div class="col d-block d-lg-none align-self-center review-content-small">
-              <div class="d-flex justify-content-center review-header">
-                <h3>¡You will die!</h3>
-              </div>
-              <div class="d-flex justify-content-center">
-                <p><i><span>Coming soon...</span></i></p>
+                <ul class="m-4 p-0">
+                  <li class="d-flex justify-content-around p-2 mb-2 review-entry">
+                    <p class="my-auto p-1 review-text">Coming soon...</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
