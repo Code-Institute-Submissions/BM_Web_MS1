@@ -60,6 +60,10 @@ header a{
   color: #fffff0;
 }
 
+.navbar .active {
+  color: #faa539;
+}
+
 .author-brand {
   min-height: 120px;
   padding-top: 25px;
@@ -313,10 +317,10 @@ section h2 {
 
 .carousel-indicators {
   z-index: 0;
-  height: 500px;
+  height: 10px;
   position: absolute;
   right: 0;
-  top: -20px;
+  top: -30px;
   left: 0;
 }
 
@@ -333,18 +337,11 @@ section h2 {
 
 #titles-carousel {
   min-height: 400px;
-  height: auto;
   width: 100%;
-  padding: 10px 0 31px 0;
-  margin: 0 auto;
-  margin-bottom: 30px;
 }
 
 #titles-carousel-content {
   width: 80%;
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
   background-color: rgb(16,52,63);
   background-color: rgba(16,52,63,0.8);
   border-radius: 5px;
@@ -358,6 +355,7 @@ section h2 {
 
 .sinopsis-header {
   text-decoration: underline;
+  text-indent: 1em;
   font-size: 120%;
   font-weight: 600;
   letter-spacing: 1px;
