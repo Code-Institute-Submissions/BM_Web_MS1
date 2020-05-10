@@ -45,16 +45,45 @@
     </header>
     
     <!-- MAIN CONTENT SECTION START -->
-    <section class="container-fluid no-gutters">
+    <section class="row no-gutters">
       <!-- MAIN CONTENT (TEXT EXPLAINING AND FORM ITSELF) -->
-      <div class="row">
-        <div class="col-3 d-none d-md-block">
-          ¿Quieres opinar sobre mis libros? ¿Sobre los textos repartidos en esta página? ¿Quieres preguntar algo? ¿Resolver alguna duda? 
-          No dudes en contactar conmigo a través del formulario. Estaré encantada de leerte. 
-        </div>
-        <div class="col-12 col-sm-6">
-          form itself
-        </div>
+      <div class="col-12 col-lg-6 text-center my-auto">
+        <p>¿Quieres opinar sobre mis libros?</p>
+        <p>¿Sobre los textos repartidos en esta página?</p>
+        <p>¿Quieres preguntar algo? ¿Resolver alguna duda?</p>
+        <p>No dudes en contactar conmigo a través del formulario. Estaré encantada de leerte.</p>
+      </div>
+      <div class="col-12 col-lg-6 text-center my-auto">
+        <form>
+          <fieldset>
+            <legend>Personal info:</legend>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Project:</legend>
+            <div class="d-flex justify-content-center align-items-center">
+              <label for="book">Book-signing</label><br>
+              <input type="checkbox" id="book" name="book" value="book">
+              <label for="conf">Conference</label><br>
+              <input type="checkbox" id="conf" name="conf" value="conf">
+              <label for="other">Others</label>
+              <input type="checkbox" id="other" name="other" value="other" checked>
+            </div>
+            <div>
+              <label for="idea">Main idea:</label>
+              <input type="text" id="idea" name="idea" required>
+              <label for="message">Full message:</label>
+              <textarea id="message" rows="4" cols="35" required>
+              </textarea>
+            </div>
+          </fieldset>
+          <input type="submit" onclick="alert('Message sent!')" value="Send">
+        </form>
       </div>
     </section>
     
