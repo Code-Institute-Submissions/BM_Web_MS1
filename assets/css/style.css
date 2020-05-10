@@ -51,7 +51,7 @@ footer {
 
 /* ------------------------------- HEADER ------------------------------- */
 
-header a{
+header a {
   text-decoration: none;
   text-align: center;
   font-family: 'Euphoria Script', cursive;
@@ -381,12 +381,14 @@ header a{
   overflow-y: scroll;
   background-color: #FFC273;
   background-color: rgba(255,194,115,0.8);
-  border-left: 3px solid #10343F;
-  border-left: 3px solid  rgba(16,52,63,0.9);
+  border-left: 2px solid #10343F;
+  border-left: 2px solid  rgba(16,52,63,0.9);
 }
 
-.social-feed-item {
-  list-style-type: none;
+.social-feed-item img {
+  border-radius: 5px;
+  border: 2px solid #10343F;
+  border: 2px solid  rgba(16,52,63,0.9);
 }
 
 /* ------------------------------- MAIN SECTION BLOG ------------------------------- */
@@ -399,15 +401,16 @@ header a{
 
 /* ------------------------------- FOOTER ------------------------------- */
 
-.copyright-section {
-  word-spacing: 2px;
+.alert-activation-span {
   font-size: 80%;
+  word-spacing: 2px;
 }
 
 .copyright-pop-alert {
   transition: opacity 1s ease;
   transition-delay: 1.5s;
   opacity: 0;
+  height: 0;
   width: 190%;
   overflow: hidden;
   z-index: -1;
@@ -545,13 +548,13 @@ header a:hover {
 
   /* ------------------------------- footer ------------------------------- */
 
-.copyright-section:hover .copyright-pop-alert {
+.alert-activation-span:hover .copyright-pop-alert {
   opacity: 1;
   z-index: 1;
   height: auto;
 }
 
-.copyright-section:hover i {
+.alert-activation-span:hover i {
   color: #ff8f00;
   transform: scale(1.4);
 }
