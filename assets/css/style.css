@@ -365,7 +365,9 @@ header a{
 .biography-pic {
   height: 200px;
   width: 200px;
-  border: 2px solid #fffff0;
+  border: 2px solid #10343F;
+  border: 2px solid rgba(16,52,63,0.9);
+  border-radius: 5px;
 }
 
 .biography-text {
