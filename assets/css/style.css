@@ -397,17 +397,14 @@ header a {
 
 .contact-form-field {
   border-radius: 5px;
-  border: 1px solid #fffff0;
   background-color: #10343F;
-  background-color: rgba(16,52,63,0.6);
+  background-color: rgba(16,52,63,0.8);
 }
 
 .contact-form-field-legend {
   font-style: italic;
   font-weight: 600;
-  border-radius: 5px;
-  border: 2px solid #fffff0;
-  background-color: #10343F;
+  text-decoration: underline;
 }
 
 .contact-form-field-label {
@@ -433,7 +430,7 @@ header a {
   background-color: #faa539;
   color: black;
   position: absolute;
-  bottom: 0;
+  bottom: -150px;
   left: 5%;
 }
 
@@ -549,7 +546,8 @@ header a:hover {
   z-index: 1;
   height: auto;
   transition: opacity 1s ease;
-  transition-delay: 1.5s;
+  transition-delay: 2s;
+  bottom: 0;
 }
 
 .alert-activation-span:hover i {

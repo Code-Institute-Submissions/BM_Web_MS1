@@ -47,9 +47,10 @@
     <!-- MAIN CONTENT SECTION START -->
     <section class="row no-gutters pb-4 justify-content-center contact-full">
       <!-- MAIN CONTENT (TEXT EXPLAINING AND FORM ITSELF) -->
-      <div class="col-12 col-lg-5 pb-5 text-center">
+      <!-- INTRO TEXT -->
+      <div class="col-12 col-lg-5 text-center">
         <h2 class="mt-4 mb-4 section-title">Contact Me</h2>
-        <div class="m-5 pt-4 contact-intro">
+        <div class="m-4 pt-5 contact-intro">
           <p>Do you want to review on my books?</p>
           <p>About the texts distributed on this page?</p>
           <p>Do you want to ask me anything? Solve any doubts?</p>
@@ -57,10 +58,11 @@
           <p>I will be more than happy to read you.</p>          
         </div>
       </div>
+      <!-- FORM -->
       <div class="col-12 col-lg-5 pb-3 text-center mt-5">
-        <form class="m-3">
+        <form class="m-3" method="" action="" onsubmit="return alert('Message sent!')" target="_self">
           <fieldset class="m-2 p-2 contact-form-field">
-            <legend class="w-75 contact-form-field-legend">Contact info:</legend>
+            <h4 class="mb-3 contact-form-field-legend">Contact info</h4>
             <div class="col-12 p-0">
               <label class="contact-form-field-label" for="name">
                 <i class="far fa-user mr-2"> *</i>
@@ -75,9 +77,9 @@
             </div>
           </fieldset>
           <fieldset class="m-2 p-2 contact-form-field">
-            <legend class="w-75 contact-form-field-legend">Project details:</legend>
+            <h4 class="mb-3 contact-form-field-legend">Project details</h4>
             <div class="col-12 p-0">
-              <h5>Please select a topic:</h5>
+              <h6>Select a topic:</h6>
             </div>
             <div class="d-flex justify-content-around mb-2">
               <div>
@@ -98,7 +100,7 @@
               <textarea id="message" rows="4" cols="30" placeholder="Explain your project to Blanca M&aacute;rmol" required></textarea>
             </div>
           </fieldset>
-          <input class="btn interaction-button sub-section-title" type="submit" onclick="alert('Message sent!')" value="Send">
+          <input class="interaction-button sub-section-title" type="submit" value="send info">
         </form>
       </div>
     </section>
