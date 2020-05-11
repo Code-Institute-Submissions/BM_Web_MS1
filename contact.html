@@ -45,44 +45,60 @@
     </header>
     
     <!-- MAIN CONTENT SECTION START -->
-    <section class="row no-gutters">
+    <section class="row no-gutters pb-4 justify-content-center contact-full">
       <!-- MAIN CONTENT (TEXT EXPLAINING AND FORM ITSELF) -->
-      <div class="col-12 col-lg-6 text-center my-auto">
-        <p>¿Quieres opinar sobre mis libros?</p>
-        <p>¿Sobre los textos repartidos en esta página?</p>
-        <p>¿Quieres preguntar algo? ¿Resolver alguna duda?</p>
-        <p>No dudes en contactar conmigo a través del formulario. Estaré encantada de leerte.</p>
+      <div class="col-12 col-lg-5 pb-5 text-center">
+        <h2 class="mt-4 mb-4 section-title">Contact Me</h2>
+        <div class="m-5 pt-4 contact-intro">
+          <p>Do you want to review on my books?</p>
+          <p>About the texts distributed on this page?</p>
+          <p>Do you want to ask me anything? Solve any doubts?</p>
+          <p>Do not hesitate to contact me through the form.</p>
+          <p>I will be more than happy to read you.</p>          
+        </div>
       </div>
-      <div class="col-12 col-lg-6 text-center my-auto">
-        <form>
-          <fieldset>
-            <legend>Personal info:</legend>
-            <div>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required>
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
+      <div class="col-12 col-lg-5 pb-3 text-center mt-5">
+        <form class="m-3">
+          <fieldset class="m-2 p-2 contact-form-field">
+            <legend class="w-75 contact-form-field-legend">Contact info:</legend>
+            <div class="col-12 p-0">
+              <label class="contact-form-field-label" for="name">
+                <i class="far fa-user mr-2"> *</i>
+              </label>
+              <input type="text" id="name" name="name" placeholder="Write your name" size="15" required>
+            </div>
+            <div class="col-12 p-0">
+              <label class="contact-form-field-label" for="email">
+                <i class="fas fa-at mr-2"> *</i>
+              </label>
+              <input type="email" id="email" name="email" placeholder="Write your e-mail" size="15" required>
             </div>
           </fieldset>
-          <fieldset>
-            <legend>Project:</legend>
-            <div class="d-flex justify-content-center align-items-center">
-              <label for="book">Book-signing</label><br>
-              <input type="checkbox" id="book" name="book" value="book">
-              <label for="conf">Conference</label><br>
-              <input type="checkbox" id="conf" name="conf" value="conf">
-              <label for="other">Others</label>
-              <input type="checkbox" id="other" name="other" value="other" checked>
+          <fieldset class="m-2 p-2 contact-form-field">
+            <legend class="w-75 contact-form-field-legend">Project details:</legend>
+            <div class="col-12 p-0">
+              <h5>Please select a topic:</h5>
             </div>
-            <div>
-              <label for="idea">Main idea:</label>
-              <input type="text" id="idea" name="idea" required>
-              <label for="message">Full message:</label>
-              <textarea id="message" rows="4" cols="35" required>
-              </textarea>
+            <div class="d-flex justify-content-around mb-2">
+              <div>
+                <label class="m-0 w-100 contact-form-field-label" for="book">Book-signing</label>
+                <input type="checkbox" id="book" name="book" value="book">
+              </div>
+              <div>
+                <label class="m-0 w-100 contact-form-field-label" for="conf">Conference</label>
+                <input type="checkbox" id="conf" name="conf" value="conf">
+              </div>
+              <div>
+                <label class="m-0 w-100 contact-form-field-label" for="other">Others</label>
+                <input type="checkbox" id="other" name="other" value="other" checked>
+              </div>
+            </div>
+            <div class="col-12 p-0">
+              <label class="m-0 w-100 contact-form-field-label" for="message">Full description:</label>
+              <textarea id="message" rows="4" cols="30" placeholder="Explain your project to Blanca M&aacute;rmol" required></textarea>
             </div>
           </fieldset>
-          <input type="submit" onclick="alert('Message sent!')" value="Send">
+          <input class="btn interaction-button sub-section-title" type="submit" onclick="alert('Message sent!')" value="Send">
         </form>
       </div>
     </section>
