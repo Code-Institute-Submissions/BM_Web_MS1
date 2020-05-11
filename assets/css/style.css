@@ -188,12 +188,12 @@ header a {
 
 /* content features */
 
-#titles-carousel {
+.titles-carousel {
   min-height: 400px;
   width: 100%;
 }
 
-#titles-carousel-content {
+.titles-carousel-content {
   width: 100%;
   background-color: rgb(16,52,63);
   background-color: rgba(16,52,63,0.8);
@@ -223,12 +223,12 @@ header a {
 /* --carousel features, defined in previous section-- */
 /* content features */
 
-#reviews-carousel {
+.reviews-carousel {
   min-height: 400px;
   width: 100%;
 }
 
-#reviews-carousel-content {
+.reviews-carousel-content {
   width: 100%;
   background-color: rgb(16,52,63);
   background-color: rgba(16,52,63,0.8);
@@ -386,6 +386,18 @@ header a {
 
 /* ------------------------------- MAIN SECTION CONTACT ------------------------------- */
 
+.contact-full {
+  color: #fffff0;
+}
+
+.contact-intro {
+  font-size: 110%;
+  font-style: italic;
+}
+
+.contact-form-field {
+  border: 1px solid black;
+}
 
 
 /* ------------------------------- FOOTER ------------------------------- */
@@ -464,11 +476,11 @@ header a {
     max-width: 60%;
   }
 
-  #titles-carousel-content {
+  .titles-carousel-content {
     width: 80%;
   }
   
-  #reviews-carousel-content {
+  .reviews-carousel-content {
     width: 80%;
   }
   
