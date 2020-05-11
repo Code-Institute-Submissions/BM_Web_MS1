@@ -385,7 +385,15 @@ header a {
 
 .blog-entry {
   background-color: red;
-  min-height: 200px;
+  min-height: 10px;
+}
+
+.blog-entry-img {
+  
+}
+
+.blog-entry-text {
+  
 }
 
 .blog-index {
