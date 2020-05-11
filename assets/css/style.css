@@ -368,21 +368,32 @@ header a {
   max-height: 800px;
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: #FFC273;
-  background-color: rgba(255,194,115,0.8);
-  border-left: 2px solid #10343F;
-  border-left: 2px solid  rgba(16,52,63,0.9);
+  background-color: #10343F;
+  background-color: rgba(16,52,63,0.8);
 }
 
 .social-feed-item img {
+  max-height: 270px;
   border-radius: 5px;
-  border: 2px solid #10343F;
-  border: 2px solid  rgba(16,52,63,0.9);
 }
 
 /* ------------------------------- MAIN SECTION BLOG ------------------------------- */
 
+.blog-full {
+  color: #fffff0;
+}
 
+.blog-content {
+  background-color: red;
+}
+
+.blog-index {
+  max-height: 800px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #10343F;
+  background-color: rgba(16,52,63,0.8);
+}
 
 /* ------------------------------- MAIN SECTION CONTACT ------------------------------- */
 
@@ -409,7 +420,7 @@ header a {
 
 .contact-form-field-label {
   font-style: italic;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 /* ------------------------------- FOOTER ------------------------------- */
