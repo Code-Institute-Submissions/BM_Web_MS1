@@ -427,6 +427,18 @@ header a {
   background-color: rgba(16,52,63,0.8);
 }
 
+.blog-index-entries {
+  color: #fffff0;
+  list-style-type: square;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.blog-index-entries a {
+  color: #fffff0;
+}
+
 /* ------------------------------- MAIN SECTION CONTACT ------------------------------- */
 
 .contact-full {
@@ -589,7 +601,11 @@ header a:hover {
 .blog-button:hover {
   transform: scale(1.17);
 }
-  
+
+.blog-index-entries a:hover {
+  color: #ff8f00;
+  text-decoration: none;
+}  
   /* ----------- footer ----------- */
 
 .alert-activation-span:hover .copyright-pop-alert {
