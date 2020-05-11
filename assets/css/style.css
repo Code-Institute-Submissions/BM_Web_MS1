@@ -420,11 +420,23 @@ header a {
   text-decoration: none;
 }
 
+.blog-index-banner {
+  background-color: #10343F;
+  background-color: rgba(16,52,63,0.8);
+  height: 1566px;
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
 .blog-index {
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: #10343F;
-  background-color: rgba(16,52,63,0.8);
+  padding-top: 210px;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
 .blog-index-entries {
