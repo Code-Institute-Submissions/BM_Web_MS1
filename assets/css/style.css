@@ -379,21 +379,45 @@ header a {
 
 /* ------------------------------- MAIN SECTION BLOG ------------------------------- */
 
-.blog-full {
-  color: #fffff0;
+.blog-entry {
+  border-radius: 5px;
+  background-color: rgb(255, 210, 155);
+  background-color: rgba(255, 210, 155, 0.8);
+  min-height: 10px;/**/
 }
 
-.blog-entry {
-  background-color: red;
-  min-height: 10px;
+.blog-entry-title {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.blog-entry-title span {
+  font-style: normal;
+  font-weight: 400;
 }
 
 .blog-entry-img {
-  
+  max-height: 180px;
+  max-width: 270px;
+  border-radius: 5px;
 }
 
 .blog-entry-text {
-  
+  text-indent: 1em;
+}
+
+.blog-button {
+  background: url(../images/vintage_label.png) no-repeat;
+  background-size: contain;
+  height: 90px;
+  width: 270px;
+}
+
+.blog-button a {
+  color: darkred;
+  font-size: 130%;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .blog-index {
@@ -562,6 +586,10 @@ header a:hover {
   transform: scale(1.2);
 }
 
+.blog-button:hover {
+  transform: scale(1.17);
+}
+  
   /* ----------- footer ----------- */
 
 .alert-activation-span:hover .copyright-pop-alert {
