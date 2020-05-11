@@ -346,7 +346,6 @@ header a {
     /* --- bio --- */
 
 .biography-column {
-  max-height: 600px;
   color: #fffff0;
   overflow-y: hidden;
 }
@@ -384,12 +383,12 @@ header a {
   color: #fffff0;
 }
 
-.blog-content {
+.blog-entry {
   background-color: red;
+  min-height: 200px;
 }
 
 .blog-index {
-  max-height: 750px;
   overflow-x: hidden;
   overflow-y: scroll;
   background-color: #10343F;
