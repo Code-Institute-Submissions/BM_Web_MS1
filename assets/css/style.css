@@ -10,7 +10,6 @@ body {
   color: floralwhite;
   height: 100vh;
   font-family: 'Cardo', serif;
-  background-image: url(../images/banner4.png);
 }
 
 header {
@@ -20,6 +19,8 @@ header {
 }
 
 section {
+  background-image: url(../images/banner4.png);
+  background-position: top;
   min-height: calc(75vh - 31px);
   color: black;
   overflow-y: visible;
@@ -424,7 +425,7 @@ header a {
   background-color: #10343F;
   background-color: rgba(16,52,63,0.8);
   height: 1566px;
-  z-index: -1;
+  z-index: ;
   position: fixed;
   right: 0;
   top: 0;

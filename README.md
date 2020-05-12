@@ -1,12 +1,12 @@
 # Blanca Mármol Webpage
 Fantasy writer
 
-(MS front-end project - Code Institute by Ángel González)
+**(MS front-end project - Code Institute by Ángel González)**
 
 This is the website for an indie fantasy author. The site includes a showcase of her publishings and information about them as well as options to see reviews and proceed to purchase. The domain also includes a blog section and an about section with information like biography, next events or social feed. Finally, there's a contact section for fans, event or enquiries.
 
 ## UX
-###User stories
+### User stories
 Users of this webpage will be both fans and editors/commercials browsing the writer content for possible engagement in events and/or contracting.
 
 ### Strategy
@@ -66,7 +66,7 @@ Color pattern following the latest book launch is kept consistent throughout the
 
 ![Color-pattern](/assets/images/screencaptures/Color_pattern-min.jpg "Color palette base")
 
-## Technologies used
+## Technologies Present
 1. HTML
 2. CSS
 3. Bootstrap (4.4.x)
@@ -108,6 +108,14 @@ All materials displayed belong to Blanca Mármol and all the site designs belong
 
 ### Acknowledgements
 
+https://www.w3schools.com/
 
+https://getbootstrap.com/
 
+https://css-tricks.com/
 
+## Contact
+
+**E-mail:** a.cruzana88@gmail.com :technologist:
+
+**Slack-id:** U012EE0G6CR :speech_balloon:
