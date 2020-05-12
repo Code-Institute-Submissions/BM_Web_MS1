@@ -91,8 +91,9 @@ Every link creates a new tab avoiding connection with the site to be interrupted
 Contact also can be made with the writer in both ways, formal through form, or informal via social media provided on footer icons.
 
 ### Notes
+In general, scrollbars dont work off "-webkit" browsers.
 
-In reviews.html, users that submitted reviews are made up and links go to generic sites to avoid personal information issues.
+On reviews.html, users that submitted reviews are made up and links go to generic sites to avoid personal information issues.
 
 Also take account that, despite all required fields to press "submit", the form in contact.html doesn't do any "action" and has no "target" either.
 
@@ -107,12 +108,14 @@ All materials displayed belong to Blanca Mármol and all the site designs belong
 **Disclaimer:** This site and its contents or any portion thereof may not be reproduced or used in any manner whatsoever without the express written permission of the publisher except for the use of brief quotations in a book review. Copyright © 2020.
 
 ### Acknowledgements
+Great help from the documentation of these two sites:
 
-https://www.w3schools.com/
+* https://www.w3schools.com/
+* https://getbootstrap.com/
 
-https://getbootstrap.com/
+Really incredible work this people do for the coding community, especially for beginners. Huge shout out.
 
-https://css-tricks.com/
+Also a small note to mention **"https://css-tricks.com/"** where I did find not the specific solutions I was trying, but got plenty of inspiration from the solid amount of snipets posted and shown there.
 
 ## Contact
 
