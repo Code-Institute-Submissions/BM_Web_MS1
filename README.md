@@ -64,8 +64,22 @@ Contact Page small device:
 ### Surface
 Color pattern following the latest book launch is kept consistent throught the site with contrat and complimentary colors when needed for indicators, cta's and hover effects.
 
+![Color-pattern](/assets/images/screencaptures/Color_pattern-min.jpg "Color palette base")
+
 ## Technologies
 1. HTML
 2. CSS
 3. Bootstrap (4.4.x)
+
+## Features
+This domain profits of some Bootstrap features like the fixed navbar and footer. Also the collapsable navbar itself and the carousel, present in a couple of the pages. Overall responsiveness is also based on Bootstrap grid system.
+
+### Future Features Objectives
+As the project didn't involve anything but HTML and CSS, I didn't implement but kept for future practice/developement:
+
+* Real time social feed in about.html (Jquery code to present a real time feed instead of having to manually update)
+
+* Carousel feature will be replaced by interactive tabs making it easier to target from one page to the other making the relation between titles.html and reviews.html closer in order to facilitate trasference from one to the other easing UX
+
+* Making contact.html form actually work with php and db
 
