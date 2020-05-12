@@ -14,12 +14,12 @@ The goal is to diseminate the site user towards their goal as soon as possible (
 
 Defined and clean navigation with clear section titles:
 
-![Navbar-browser](/assets/screencaptures/Navbar_full-min.jpg "Navbar browser")
+![Navbar-browser](/assets/images/screencaptures/Navbar_full-min.jpg "Navbar browser")
 
 Small device navigation is collapsed but clean when opened:
 
-![Navbar-phone-closed](/assets/screencaptures/Navbar_smart-closed-min.jpg "Phone browser")
-![Navbar-phone-open](/assets/screencaptures/Navbar_smart-open-min.jpg "Phone browser")
+![Navbar-phone-closed](/assets/images/screencaptures/Navbar_smart-closed-min.jpg "Phone browser")
+![Navbar-phone-open](/assets/images/screencaptures/Navbar_smart-open-min.jpg "Phone browser")
 
 ### Scope
 We want to take the make it easy for the users to access the diferent section that they were searching and also make them know the author latest work to potence the selling and also amplify interest.
@@ -64,4 +64,8 @@ Contact Page small device:
 ### Surface
 Color pattern following the latest book launch is kept consistent throught the site with contrat and complimentary colors when needed for indicators, cta's and hover effects.
 
-## Technologies Used
+## Technologies
+1. HTML
+2. CSS
+3. Bootstrap (4.4.x)
+
