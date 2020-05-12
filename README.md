@@ -34,7 +34,7 @@ Header and footer stay fixed keeping the user familiar with the site environment
 * "blog", displays the author's blog with an index
 * "contact", allows contacting the author via a form
 
-### Keyframes
+### Wireframes
 Some original keyframes designed with the writer. Style improved overall during w.i.p.
 
 Landing Page browser: 
