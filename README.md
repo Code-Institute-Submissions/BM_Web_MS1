@@ -7,7 +7,19 @@ This is the website for an indie fantasy author. The site includes a showcase of
 
 ## UX
 ### User stories
-Users of this webpage will be both fans and editors/commercials browsing the writer content for possible engagement in events and/or contracting.
+Users of this webpage will be both fans and editors browsing the writer content for possible engagement in events and/or contracting.
+
+The site **navigation bar** is very clear and as a user I can select the path desired easily.
+
+**Homepage**, as a fan or editor I get to know the writer's latest title, which is the objective, also get a glimpse of the next events involving her.
+
+**Titles** and **Reviews**, as a fan, I can browse through the current publishings and also get to know the name of the next title to be published; as editors I get information about the work in progress to maybe contact the write about it.
+
+**About**, as a fan, I get to know more about the writer through the biography. Both as a fan and editor I find the whole agenda and have accessibility to contact her if needed.
+
+**Blog**, as a fan, I love to get to read more content by the writer. As editor I find interesting to maybe get an angle to know her better before trying a commercial approach.
+
+**Contact**, both as a fan and editor I find an easy way to easily reach the writer.
 
 ### Strategy
 The goal is to disseminate the site user towards their goal as soon as possible (via an intuitive navigation bar). But at the same time we want to promote the latest book launched in a very visual and attention gathering way to expand interest (via hero content).
@@ -72,7 +84,25 @@ Color pattern following the latest book launch is kept consistent throughout the
 3. Bootstrap (4.4.x)
 
 ## Features
-This domain profits of some Bootstrap features like the fixed navbar and footer. Also the collapsable navbar itself and the carousel, present in a couple of the pages. Overall responsiveness is also based on the Bootstrap grid system.
+This site consists of six different pages, however they all keep the same structure to help the user establish familiarity as it browses throughout.
+
+* Fixed **header and navbar**: navigation is fixed under brand name but shows collapsed on small devices on top left corner.
+
+* Fixed **footer**: footer parallels the header position and colours. It contains a "pop-up on hover" copyright disclaimer on the left side and social icons on the right end with a small hover animation.
+
+* Landing page (**Home**): contains a hero banner that takes all the available space. A button placed in it allows to access the purchase of the promoted title. Downwards a sample of the agenda is shown, with a button that allows access to the whole agenda in it.
+
+* **Titles** page: showcases title covers beside the synopsis in a carousel. A button to access the purchase is included.
+
+* **Reviews** page: showcases title covers beside the reviews in a carousel. A button to access the site where the review was placed originally is included.
+
+* **About** page: contains the full agenda with a button underneath that forwards the user to the contact page for new event proposals. Biography of the writer appears here and also a social media feed on large screens.
+
+* **Blog** page: showcases the blog entries of the writer with newer on the top part. There is an index fixed on the right side on large screens. There are also "back to top" buttons on the end of every blog entry to facilitate navigation.
+
+* **Contact** page: features a form that alows user to contact the writer for diferent reasons. Form has several required fields and prompts a message once submitted.
+
+The whole site has response from small device to large screen, moving sections from sideways to top/bottom when needed to achieve best display. Not responsive on 4k at the moment.
 
 ### Future Features Objectives
 As the project didn't involve anything but HTML and CSS, I didn't implement but kept for future practice/development:
@@ -83,15 +113,23 @@ As the project didn't involve anything but HTML and CSS, I didn't implement but 
 
 * Making contact.html form actually work with PHP and DB
 
+* 4k response
+
 ## Testing
-Users can successfully access to the whole domain and navigate through it in an easy and intuitive way. Response works fine for all davices. 
+During the development, using Brackets by Adobe and its built-in live preview made it very easy to adjust response and test the majority as was coded.
 
-Every link creates a new tab avoiding connection with the site to be interrupted. 
+After finishing the coding, used "HTML validators" and "CSS lint" checking for possible warnings or errors. Some CSS warnings for possible errors in some browsers were fixed (providing color fallbacks, for example).
 
-Contact also can be made with the writer in both ways, formal through form, or informal via social media provided on footer icons.
+**Display:** tests were made on browsers, tablets and phones. Giving this last ones problems with the background image in some of the pages. The display problem was solved by resizing down the image itself.
+
+**Buttons (interactions):** tests were made manually in different devices, ensuring users can successfully access and navigate through the whole domain via using them.
+
+**Links:** tests were made manually, ensuring they all lead to either a new tab or the intended path inside the site. 
+
+**Form:** tests were made manually, ensuring the required fields are working as intended and the prompt message displays.
 
 ### Notes
-In general, scrollbars dont work off "-webkit" browsers.
+In general, custom scrollbars dont work off "-webkit" browsers.
 
 On reviews.html, users that submitted reviews are made up and links go to generic sites to avoid personal information issues.
 
@@ -99,6 +137,8 @@ Also take account that, despite all required fields to press "submit", the form 
 
 ## Deployment
 This site is temporarily hosted on GitHub Pages, from Master branch.
+
+Deployment on Pages was made only before submitting the project for final testing. The project was kept on Brackets "live preview" for modifications, even though it was committed to GitHub and updated via GitBash on a frequent basis. 
 
 ## Credits
 
