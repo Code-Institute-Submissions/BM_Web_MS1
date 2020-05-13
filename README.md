@@ -9,17 +9,19 @@ This is the website for an indie fantasy author. The site includes a showcase of
 ### User stories
 Users of this webpage will be both fans and editors browsing the writer content for possible engagement in events and/or contracting.
 
-The site **navigation bar** is very clear and as a user I can select the path desired easily.
+The site **navigation bar** is very clear and as a user I can select the path desired easily, see next section.
 
-**Homepage**, as a fan or editor I get to know the writer's latest title, which is the objective, also get a glimpse of the next events involving her.
+[Homepage](/assets/images/screencaptures/Home_full-min.png "Home browser preview"), as a fan or editor I get to know the writer's latest title, which is the objective, also get a glimpse of the next events involving her.
 
-**Titles** and **Reviews**, as a fan, I can browse through the current publishings and also get to know the name of the next title to be published; as editors I get information about the work in progress to maybe contact the write about it.
+[Titles](/assets/images/screencaptures/Titles_full-min.png "Titles browser preview") and [Reviews](/assets/images/screencaptures/Reviews_full-min.png "Reviews browser preview"), as a fan, I can browse through the current publishings and also get to know the name of the next title to be published; as editors I get information about the work in progress to maybe contact the write about it.
 
-**About**, as a fan, I get to know more about the writer through the biography. Both as a fan and editor I find the whole agenda and have accessibility to contact her if needed.
+[About](/assets/images/screencaptures/About_full-min.png "About browser preview"), as a fan, I get to know more about the writer through the biography. Both as a fan and editor I find the whole agenda and have accessibility to contact her if needed.
 
-**Blog**, as a fan, I love to get to read more content by the writer. As editor I find interesting to maybe get an angle to know her better before trying a commercial approach.
+[Blog](/assets/images/screencaptures/Blog_full-min.png "Blog browser preview"), as a fan, I love to get to read more content by the writer. As editor I find interesting to maybe get an angle to know her better before trying a commercial approach.
 
-**Contact**, both as a fan and editor I find an easy way to easily reach the writer.
+[Contact](/assets/images/screencaptures/Contact_full-min.png "Contact browser preview"), both as a fan and editor I find an easy way to easily reach the writer.
+
+Check also homologue Landing page at a mobile device preview: [Homepage](/assets/images/screencaptures/Home_smart-min.png "Home phone preview").
 
 ### Strategy
 The goal is to disseminate the site user towards their goal as soon as possible (via an intuitive navigation bar). But at the same time we want to promote the latest book launched in a very visual and attention gathering way to expand interest (via hero content).
